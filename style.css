@@ -24,6 +24,12 @@ font-size: larger;
 width: 100%;
 }
 
+#more-arrows {
+  position: absolute;
+  left: 50%;
+  top: 80%;
+}
+
 .area{
     width: auto;
     position: relative;
