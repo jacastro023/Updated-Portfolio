@@ -1,8 +1,7 @@
 img{
-    float: left;
+
     height: 128px;
-    margin-left: 20px;
-    margin-bottom: 20px;
+
     width: 100%;
 }
 /* creating container for first, third and fifth image */
@@ -12,7 +11,6 @@ img{
     width: 300px;
     height: 300px;
     border: 1px solid white;
-    margin: 0 0 0 0;
 }
 
 /* adjusting the position of the text on top of the image */
@@ -21,26 +19,8 @@ position: absolute;
 background-color: #4aaaa5;
 color: white;
 bottom: 26px;
-
 width: 100%;
 text-align: center;
 font-size: 17px;
 }
-/* creating container for second image and adjusting position */
-.container4{
-    position: relative;
-    float: left;
-    margin-left: 50px;
-    width: 30%;
-}
-/* creating container for forth image and adjusting position */
-.container5{
-    position: relative;
-    float: left;
-    margin-left: 50px;
-    width: 30%;
-}
-/* tried to get rid of scroll bar on webpage */
-.break2{
-    height: 100px;
-}
+

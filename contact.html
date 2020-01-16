@@ -24,32 +24,38 @@
 <body>
     <div>
         <div class="area" id="one">
-            <h1 class="animated fadeInDown">WELCOME!</h1>
-            <h3 class="animated fadeInRight">I am a Northwestern Coding Student,</h3>
-            <h3 class="animated fadeInRight">Jose Castro</h3>
+            <div class="container">
+                <div class="form">
+                    <h1>Contact</h1>
+                    <!-- created a break -->
+                    <hr class="break3">
+                    <!-- made a form to input contact info -->
+                    <form>
+                        <label for="name">Name
+                        </label>
+                        <br>
+                        <input type="text" style="text-align: center;" placeholder="Jose Castro">
+                        <br>
+                        <label for="email">Email
+                        </label>
+                        <br>
+                        <input type="text" style="text-align: center;" placeholder="example@gmail.com">
+                        <br>
+                        <label for="message">
+                            Message
+                        </label>
+                        <br>
+                        <textarea id="message" style="height: 80px; width: 300px; text-align: center;"
+                            placeholder="I have lived in chicago most of my life and I hope that I can continue living here."></textarea>
+                        <br>
+                        <input class="button" type="Submit" value="Submit">
+                    </form>
+                </div>
+            </div>
+            <div style="margin-top:85px; height: 300px; width: 100%;" id="map"></div>
         </div>
     </div>
 
-    <div id="me">
-        <h2 class="h2" style="text-align: center;">About Me</h2>
-        <div class="row col-12">
-            <div class="info col-9">Currently I an learning to code throught the Northwestern Coding Bootcamp, am I am
-                really
-                enjoying what
-                I am learning and hope to Start a new carreer as a Web Developer after the bootcamp. Learning all of
-                these
-                new languages and techniques is extremely entertaining and it is an amazing feeling when you do
-                something
-                right.
-                <br>
-                I am currently unemployed and focusing on this bootcamp to better myself and set a good example for my 5
-                year old son. Ever since before he was born I had been working in a plastic factory doing manual labor
-                in a dead end job and I want to do something more with my life, something that my son can be proud of. I
-                want to be able to support my family without them worrying if I will get hurt at work or if I will still
-                have a job the next day.</div>
-            <div class="col-3"> <img src="images\me.jpg" alt="my picture"></div>
-        </div>
-    </div>
     <nav class="main-nav navbar sticky navbar-expand-lg navbar-dark bg-dark">
         <!-- The overlay -->
         <div id="myNav" class="overlay">
@@ -68,48 +74,11 @@
         <span class="menu" onclick="openNav()">Menu</span>
         <div style="text-align: right;" id="currentday"></div>
     </nav>
-    <div id="me">
-        <h2 class="h2" style="text-align: center;">Work Experience</h2>
-        <div class="row col-12">
-            <div class="info col-9">In my previous job I was worked for over five years for the same company, HPI, a
-                plastic factory. My job title before I quit was of Color Tech. My main duties was to take care of the
-                whole factory and all of the machines that involved color and quality control of the colors required. I
-                worked with heavy machinery and was forklift certified. I work well with others, I trained five other
-                color techs for other shifts besides mine. I can manage my time as well as manage others to get the work
-                done.
-                <br>
-                My future goals are to work as a Web Developer and create things that I can be proud to show others.
-                Unlike the gif shown, I take my job seriously and work safe.</div>
-            <div class="col-3"> <iframe src="https://giphy.com/embed/ifRZShvO4BBCw" frameBorder="0" class="giphy-embed"
-                    allowFullScreen></iframe>
-                <p><a href="https://giphy.com/gifs/spin-ifRZShvO4BBCw">via GIPHY</a></p>
-            </div>
-        </div>
-    </div>
-    <div id="me">
-        <h2 class="h2" style="text-align: center;">Hobbies</h2>
-        <div class="row col-12">
-            <div class="info col-9">I really enjoy building legos with my son even if they are eventualy all going to
-                end up on the floor.
-                <br>
-                I also like playing online games to relax and distract myself when i need a break. Even though I am not
-                that good I like Playing League of Legends together with my wife.</div>
-            <div class="col-3"><iframe src="https://giphy.com/embed/MucTMoAddAHlK" frameBorder="0" class="giphy-embed"
-                    allowFullScreen></iframe>
-                <p><a href="https://giphy.com/gifs/MucTMoAddAHlK">via GIPHY</a></p>
-            </div>
-        </div>
-    </div>
-
-    <div></div>
 
 
-
-
-
-
-
-
+    <script type="text/javascript"
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCZs0g3qSFW3yteHvHDQ2ObfHG18qU9gzY">
+        </script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="script.js"></script>
