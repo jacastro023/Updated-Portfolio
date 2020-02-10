@@ -30,7 +30,7 @@ h3{
 }
 
 #carousel{
-	margin-top:200px;
+	margin-top:250px;
 	text-align:center;
 	height:60px;
 	/* background-color:#111; */
@@ -52,8 +52,8 @@ h3{
 #carousel li{
 	display:none;
 	list-style:none;
-	width:150px;
-	height:150px;
+	width:200px;
+	height:153px;
 	margin: -82px 18px 0;
 	position:relative;
 	
@@ -94,9 +94,9 @@ h3{
 }
 
 #carousel li:hover{
-	height: 350px;
+	height: 450px;
     margin-top: -152px;
-    width: 350px;
+    width: 450px;
 }
 
 .arrow{
