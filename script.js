@@ -1,4 +1,5 @@
 $(document).ready(function () {
+  AOS.init();
   $("#currentday").text(moment().format('MMMM Do YYYY, h:mm a'))
 });
 
