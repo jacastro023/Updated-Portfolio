@@ -51,3 +51,5 @@
 ## Updates of 2-9-2020
 
 * added carousel for the portfolio with growing images.
+* Added footer to the home page.
+* Added fade in animations in the about page.
