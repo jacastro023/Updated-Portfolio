@@ -47,3 +47,7 @@
 ## Appreciations
 
 * Thank you to whoever took the time to go through my pages and codes. 
+
+## Updates of 2-9-2020
+
+* added carousel for the portfolio with growing images.

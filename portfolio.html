@@ -19,6 +19,7 @@
         crossorigin='anonymous'></script>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="style2.css">
+    <link href="styles/ihover.css" rel="stylesheet">
     <title>Document</title>
 </head>
 
@@ -30,8 +31,33 @@
                     <h1 style="padding-top: 40px;">Portfolio</h1>
                     <h5>Clicking an image will take you to live website.</h5>
                     <hr>
+                    <div id="main">
+
+                        <a class="arrow prev">Prev</a>
+                        <a class="arrow next">Next</a>
+
+                        <ul id="carousel">
+                            <li><a href="https://jacastro023.github.io/Weather-Forecast/"><img src="./img/forecast.png"
+                                        alt="5 Day Forecast" /></a></li>
+                            <li><a href=""><img src="./img/profilegenerator.png" alt="Generator" /></a></li>
+                            <li><a href="https://jacastro023.github.io/My-first-portfolio/"><img
+                                        src="./img/previous.png" alt="Profile" /></a></li>
+                            <li class="visible"><a href="https://enigmatic-lowlands-80694.herokuapp.com/"><img
+                                        src="./img/burger.png" alt="Restaurant" /></a></li>
+                            <li class="visible"><a href="https://limitless-sands-05500.herokuapp.com/"><img
+                                        src="./img/garage.png" alt="Car Search" /></a></li>
+                            <li class="visible"><a href="https://aleshsparrow.github.io/Project-One/"><img
+                                        src="./img/WBS.png" alt="Weather App" /></a></li>
+                            <li><a href="https://jacastro023.github.io/PassGenerator/"><img src="img/passgen.png"
+                                        alt="PassGenerator" /></a></li>
+                            <!-- <li><a href="http://www.linuxcloudvps.com/"><img src="assets/img/sites/s5.jpg" alt="Linux Cloud VPS" /></a></li>
+                            <li><a href="https://www.billgrid.com/index"><img src="assets/img/sites/s6.jpg" alt="Billgrid" /></a></li>
+                            <li><a href="http://www.maxcdn.com/"><img src="assets/img/sites/s7.jpg" alt="MaxCDN" /></a></li> -->
+                        </ul>
+
+                    </div>
                     <!-- linked the image and created text for them-->
-                    <div style="margin: 10px 10px;" class="container3">
+                    <!-- <div style="margin: 10px 10px;" class="container3">
                         <a href="https://aleshsparrow.github.io/Project-One/">
                             <img class="container3" src="images/WBS.png" alt="Project one">
                             <div class="imgtext">Weather Based App</div>
@@ -40,10 +66,10 @@
                         <a href="https://jacastro023.github.io/Weather-Forecast/">
                             <img class="container3" src="images/forecast.png" alt="Weather Forecast">
                             <div class="imgtext">Weather Forecast App</div>
-                    </div>
+                    </div> -->
                     <!-- changing the flow to start a new line -->
-                 
-                    <div style="margin: 10px 10px;" class="container3">
+
+                    <!-- <div style="margin: 10px 10px;" class="container3">
                         <img class="container3" src="images/profilegenerator.png" alt="Generator">
                         <div class="imgtext">Profile Generator App</div>
                     </div>
@@ -51,10 +77,10 @@
                         <a href="https://jacastro023.github.io/My-first-portfolio/">
                             <img class="container3" src="images/previous.png" alt="Profile">
                             <div class="imgtext">Old Profile</div>
-                    </div>
+                    </div> -->
                     <!-- moving the text flow to static -->
-                 
-                    <div style="margin: 10px 10px;" class="container3">
+
+                    <!-- <div style="margin: 10px 10px;" class="container3">
                         <a href="https://jacastro023.github.io/PassGenerator/">
                             <img class="container3" src="images/passgen.png" alt="Password Generator">
                             <div class="imgtext">Password Generator</div>
@@ -63,7 +89,7 @@
                         <a href="https://enigmatic-lowlands-80694.herokuapp.com/">
                             <img class="container3" src="images/burger.png" alt="Burger App">
                             <div class="imgtext">Burger App</div>
-                    </div>
+                    </div> -->
                 </div>
             </div>
         </div>
@@ -93,6 +119,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="script.js"></script>
+    <script src="script2.js"></script>
 </body>
 
 </html>
