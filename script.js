@@ -1,4 +1,9 @@
 $(document).ready(function () {
+
+    $(".resume").on("click", function (event) {
+      event.preventDefault();
+      window.open(Resume.pdf)
+    })
   AOS.init();
   $("#currentday").text(moment().format('MMMM Do YYYY, h:mm a'))
 });

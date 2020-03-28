@@ -136,7 +136,8 @@
         </div>
         <!-- Use any element to open/show the overlay navigation menu -->
         <span class="menu" onclick="openNav()">Menu</span>
-        <div style="text-align: right;" id="currentday"></div>
+        <!-- <div style="text-align: right" id="currentday"></div> -->
+        <button onClick="openTab(this)" href="#" name="./Resume.pdf" style="margin-left: 20px">Resume</button>
     </nav>
 
 
@@ -178,6 +179,12 @@
         </ul>
 
     </footer>
+    <script type="text/javascript">
+        function openTab(th)
+        {
+            window.open(th.name,'_blank');
+        }
+    </script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
