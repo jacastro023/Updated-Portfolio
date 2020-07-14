@@ -93,6 +93,64 @@ h3{
     /* z-index: 1; */
 }
 
+#ten, #ten1, #ten2, #ten3, #ten4, #ten5, #ten6, #ten7{
+	display: none;
+}
+
+#pics:hover #ten{
+	display: block;
+	font-weight: bold;
+	color: black;
+	text-shadow: white 0px 0px 10px;
+}
+
+#pics1:hover #ten1{
+	display: block;
+	font-weight: bold;
+	color: black;
+	text-shadow: white 0px 0px 10px;
+}
+
+#pics2:hover #ten2{
+	display: block;
+	font-weight: bold;
+	color: black;
+	text-shadow: white 0px 0px 10px;
+}
+#pics3:hover #ten3{
+	display: block;
+	font-weight: bold;
+	color: black;
+	text-shadow: white 0px 0px 10px;
+}
+
+#pics4:hover #ten4{
+	display: block;
+	font-weight: bold;
+	color: black;
+	text-shadow: white 0px 0px 10px;
+}
+
+#pics5:hover #ten5{
+	display: block;
+	font-weight: bold;
+	color: black;
+	text-shadow: white 0px 0px 10px;
+}
+
+#pics6:hover #ten6{
+	display: block;
+	font-weight: bold;
+	color: black;
+	text-shadow: white 0px 0px 10px;
+}
+#pics7:hover #ten7{
+	display: block;
+	font-weight: bold;
+	color: black;
+	text-shadow: white 0px 0px 10px;
+}
+
 #carousel li:hover{
 	height: 450px;
     margin-top: -152px;
