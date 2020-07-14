@@ -5,7 +5,6 @@ $(document).ready(function () {
       window.open(Resume.pdf)
     })
   AOS.init();
-  $("#currentday").text(moment().format('MMMM Do YYYY, h:mm a'))
 });
 
 function openNav() {
@@ -17,7 +16,7 @@ function closeNav() {
 }
 
 var map = new google.maps.Map(document.getElementById('map'), {
-  zoom: 16,
-  center: new google.maps.LatLng(41.85, -87.71),
+  zoom: 12,
+  center: new google.maps.LatLng(41.87, -87.62),
   mapTypeId: google.maps.MapTypeId.ROADMAP
 });

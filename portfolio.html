@@ -37,8 +37,8 @@
                         <a class="arrow next">Next</a>
 
                         <ul id="carousel">
-                            <li class="visible"><a href="https://thawing-cliffs-03966.herokuapp.com/"><img src="./img/RPG.png"
-                                        alt="Story RPG" /></a></li>
+                            <li class="visible"><a href="https://thawing-cliffs-03966.herokuapp.com/"><img
+                                        src="./img/RPG.png" alt="Story RPG" /></a></li>
                             <li><a href=""><img src="./img/profilegenerator.png" alt="Generator" /></a></li>
                             <li><a href="https://jacastro023.github.io/PassGenerator/"><img src="img/passgen.png"
                                         alt="PassGenerator" /></a></li>
@@ -46,8 +46,8 @@
                                         src="./img/garage.png" alt="Car Search" /></a></li>
                             <li><a href="https://jacastro023.github.io/My-first-portfolio/"><img
                                         src="./img/previous.png" alt="Profile" /></a></li>
-                            <li><a href="https://enigmatic-lowlands-80694.herokuapp.com/"><img
-                                        src="./img/burger.png" alt="Restaurant" /></a></li>
+                            <li><a href="https://enigmatic-lowlands-80694.herokuapp.com/"><img src="./img/burger.png"
+                                        alt="Restaurant" /></a></li>
                             <li><a href="https://jacastro023.github.io/Weather-Forecast/"><img src="./img/forecast.png"
                                         alt="5 Day Forecast" /></a></li>
                             <li class="visible"><a href="https://aleshsparrow.github.io/Weather-based-suggestions/"><img
@@ -74,6 +74,7 @@
                 <a id="about" href="index.html">About</a>
                 <a id="portfolio" href="portfolio.html">portfolio</a>
                 <a id="contact" href="contact.html" id="contact">contact</a>
+                <a onClick="openTab(this)" href="#" name="./Resume.pdf" style="margin-left: 20px">Resume</a>
             </div>
         </div>
         <!-- Use any element to open/show the overlay navigation menu -->
@@ -83,7 +84,11 @@
 
 
 
-
+    <script type="text/javascript">
+        function openTab(th) {
+            window.open(th.name, '_blank');
+        }
+    </script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="script.js"></script>

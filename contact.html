@@ -31,24 +31,28 @@
                     <hr class="break3">
                     <!-- made a form to input contact info -->
                     <form>
-                        <label for="name">Name
+                        <p style="font-size: 40px; font-weight: bold; text-shadow: white 0px 0px 10px;">Jose Castro</p>
+                        <label for="email" style="font-weight: bold; text-shadow: white 0px 0px 10px;">Email:
                         </label>
                         <br>
-                        <input type="text" style="text-align: center;" placeholder="Jose Castro">
-                        <br>
-                        <label for="email">Email
+                        <p style="font-weight: bold; text-shadow: white 0px 0px 10px;">jacastro023@gmail.com</p>
+                        <label for="github" style="font-weight: bold; text-shadow: white 0px 0px 10px;">Github:
                         </label>
                         <br>
-                        <input type="text" style="text-align: center;" placeholder="jacastro023@gmail.com">
+                        <a style="font-weight: bold;"
+                            href="httlinks://github.com/jacastro023">httlinks://github.com/jacastro023</a>
                         <br>
-                        <label for="message">
-                            Message
+                        <label for="github" style="font-weight: bold; text-shadow: white 0px 0px 10px;">Linkedin:
                         </label>
                         <br>
-                        <textarea id="message" style="height: 80px; width: 300px; text-align: center;"
-                            placeholder="I have lived in chicago most of my life and I hope that I can continue living here."></textarea>
+                        <a style="font-weight: bold;"
+                            href="httlinks://www.linkedin.com/in/jose-castro-jrdev/">httlinks://www.linkedin.com/in/jose-castro-jrdev/</a>
                         <br>
-                        <input class="button" type="Submit" value="Submit">
+                        <br>
+                        <label for="message" style="font-weight: bold; text-shadow: white 0px 0px 10px;">
+                            I look forward to hearing from you, Thank You.
+                        </label>
+                        <br>
                     </form>
                 </div>
             </div>
@@ -68,6 +72,7 @@
                 <a id="about" href="index.html">About</a>
                 <a id="portfolio" href="portfolio.html">portfolio</a>
                 <a id="contact" href="contact.html" id="contact">contact</a>
+                <a onClick="openTab(this)" href="#" name="./Resume.pdf" style="margin-left: 20px">Resume</a>
             </div>
         </div>
         <!-- Use any element to open/show the overlay navigation menu -->
@@ -75,7 +80,11 @@
         <div style="text-align: right;" id="currentday"></div>
     </nav>
 
-
+    <script type="text/javascript">
+        function openTab(th) {
+            window.open(th.name, '_blank');
+        }
+    </script>
     <script type="text/javascript"
         src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCZs0g3qSFW3yteHvHDQ2ObfHG18qU9gzY">
         </script>
